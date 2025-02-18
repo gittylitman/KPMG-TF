@@ -1,5 +1,5 @@
 provider "google" {
-  project = "peerless-glass-450611-a0"  
+  project = PROJECT_ID
 }
 
 resource "google_cloud_run_service" "cloudrun" {
