@@ -1,4 +1,8 @@
-resource "google_cloud_run_service" "default" {
+provider "google" {
+  project = "peerless-glass-450611-a0"  
+}
+
+resource "google_cloud_run_service" "cloudrun" {
   name     = "cloudrun-srv"
   location = "us-central1"
 

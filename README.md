@@ -37,5 +37,13 @@ How to install terraform and azure cli in python container in docker:
        && apt-get clean \
        && rm -rf /var/lib/apt/lists/*
 
+Login to the GCP console project:
+
+	gcloud auth login
+
+	gcloud config set project PROJECT_ID
+
+	gcloud auth application-default login
+
        
     
